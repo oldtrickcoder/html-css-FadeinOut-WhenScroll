@@ -1,0 +1,106 @@
+*{
+    font-family: Montserrat;
+}
+
+
+#gambarutama{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+    margin-top: 0;
+    background-position: cover ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-title{
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    left: 40vw;
+}
+
+/* .gambar2{
+    width: 500px;
+    height: 500px;
+} */
+
+.intro-content{
+    margin-top: 50px;
+}
+#gambar2{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+}
+
+.intro-text{
+    position: absolute;
+    left: 95px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.tambahan1{
+    background:white;
+    width: 100vw;
+    height: 500px;
+    margin-top: 500px;
+
+}
+
+.tambahan2{
+    background: rgb(13, 13, 39);
+    width: 100vw;
+    height: 500px;
+    
+}
+@media screen and (max-width:768px){
+    #gambar2{
+        display: none;
+    }
+
+    .intro-text{
+        position: absolute;
+        text-align: justify;
+        width: 358px;
+    margin-top: 20px;
+        left: 25px;
+    }
+
+
+    .intro-title{
+        position: relative;
+        justify-content: center;
+        align-self: center;
+        left: 30vw;
+    }
+
+        .tambahan1{
+            background:yellow;
+            width: 100vw;
+            height: 500px;
+        
+        }
+
+    }
+
+
+
+
+/* Oke Then */
+/* Let's Start It */
+
+
+.intro-text{
+
+ opacity: 0;
+ transform: translateY(20px);
+ transition: 0.5s all ease-in-out;
+}
+
+.intro-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
